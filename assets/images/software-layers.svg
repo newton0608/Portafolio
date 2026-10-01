@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="520" viewBox="0 0 560 520" fill="none">
+  <defs>
+    <linearGradient id="top" x1="140" y1="100" x2="420" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#223556"/><stop offset="1" stop-color="#152137"/></linearGradient>
+    <linearGradient id="edge" x1="148" y1="170" x2="430" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#6297f6"/><stop offset="1" stop-color="#2b4267"/></linearGradient>
+    <linearGradient id="base" x1="140" y1="320" x2="390" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#18243a"/><stop offset="1" stop-color="#111924"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <ellipse cx="292" cy="414" rx="157" ry="30" fill="#02050a" opacity=".5" filter="url(#shadow)"/>
+  <g stroke="#263650" stroke-width=".8" opacity=".6"><path d="m62 317 227-128 231 131-227 130L62 317Z"/><path d="m39 317 250-142 253 145-249 142L39 317Z"/><path d="m125 355 227-129m-161 166 227-129m-222-56 226 131m-160-170 226 132"/></g>
+  <path d="m131 338 150-85 154 86v20l-154 88-150-86v-23Z" fill="#101723" stroke="#2a3b56"/>
+  <path d="m131 338 150-85 154 86-154 87-150-88Z" fill="url(#base)" stroke="#3a5278"/>
+  <path d="M281 426v21" stroke="#405877"/>
+  <g stroke="#587bad" stroke-dasharray="3 6" opacity=".6"><path d="M177 321v-74m208 77v-74m-104 36v-82"/></g>
+  <path d="m131 263 150-85 154 86v20l-154 88-150-86v-23Z" fill="#162136" stroke="#324b70"/>
+  <path d="m131 263 150-85 154 86-154 87-150-88Z" fill="url(#base)" stroke="#486993"/>
+  <path d="M281 351v21" stroke="#42658e"/>
+  <g stroke="#79a1db" stroke-dasharray="3 6" opacity=".6"><path d="M177 246v-74m208 77v-74m-104 36v-82"/></g>
+  <path d="m131 187 150-85 154 86v20l-154 88-150-86v-23Z" fill="#172942" stroke="#42638e"/>
+  <path d="m131 187 150-85 154 86-154 87-150-88Z" fill="url(#top)" stroke="url(#edge)" stroke-width="1.4"/>
+  <path d="M281 275v21" stroke="#7da6e5"/>
+  <path d="m152 187 129-73 132 75-132 74-129-76Z" stroke="#426394" opacity=".6"/>
+  <g transform="matrix(.866 .5 -.866 .5 279 145)"><rect x="0" y="0" width="76" height="76" rx="13" fill="#273e64" stroke="#547cae"/><text x="38" y="48" text-anchor="middle" fill="#e3ecfc" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="600">C#</text></g>
+  <path d="m158 271 44 25m157-22 34-19" stroke="#4f6f99" stroke-width="2"/>
+  <g fill="#85aaf0"><circle cx="158" cy="271" r="2.5"/><circle cx="202" cy="296" r="2.5"/><circle cx="359" cy="274" r="2.5"/></g>
+  <g fill="#597ba8"><circle cx="240" cy="384" r="3"/><circle cx="256" cy="393" r="3"/><circle cx="272" cy="402" r="3"/></g>
+  <g stroke="#496283" stroke-width="1"><path d="M133 197H89v-60H54m378 60h41v48h39m-231 181v41h66"/><circle cx="54" cy="137" r="3" fill="#91b6ed"/><circle cx="512" cy="245" r="3" fill="#91b6ed"/><circle cx="347" cy="467" r="3" fill="#577aab"/></g>
+  <g font-family="Consolas,monospace" font-size="10" letter-spacing="1.7"><text x="63" y="122" fill="#a5b5cc">APPLICATION</text><text x="443" y="275" fill="#a5b5cc">DOMAIN</text><text x="363" y="471" fill="#8597b1">DATA</text></g>
+  <g transform="translate(39 278)"><rect width="79" height="32" rx="7" fill="#131f31" stroke="#334a6c"/><circle cx="14" cy="16" r="3" fill="#638ed0"/><text x="28" y="20" fill="#a5bfe6" font-family="Consolas,monospace" font-size="11">.NET</text></g>
+  <g transform="translate(423 340)"><rect width="79" height="32" rx="7" fill="#131f31" stroke="#334a6c"/><path d="M13 10c6-3 12 0 6 3-6 3-12 0-6-3Zm-3 2v10c0 4 12 4 12 0V12" stroke="#779bcd"/><text x="33" y="20" fill="#a5bfe6" font-family="Consolas,monospace" font-size="11">SQL</text></g>
+  <g fill="#7da2d6"><circle cx="455" cy="125" r="2"/><circle cx="109" cy="392" r="2"/><circle cx="324" cy="74" r="2"/></g>
+</svg>

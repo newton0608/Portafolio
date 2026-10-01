@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs><radialGradient id="bg"><stop stop-color="#1f3150"/><stop offset="1" stop-color="#111a29"/></radialGradient><pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#344763"/></pattern></defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#dots)" opacity=".45"/>
+  <text x="65" y="80" fill="#8299bb" font-family="Consolas,monospace" font-size="15" letter-spacing="2.5">TreeRoteGT / ESTRUCTURAS DE DATOS</text>
+  <rect x="1007" y="55" width="124" height="38" rx="8" fill="#182a43" stroke="#3b5274"/><text x="1069" y="81" text-anchor="middle" fill="#a1bdeb" font-family="Consolas,monospace" font-size="15">ABB / AVL</text>
+  <g stroke="#4d6e9e" stroke-width="2.2"><path d="m600 232-230 135m230-135 230 135"/><path d="m370 430-125 134m125-134 125 134m335-134-125 134m125-134 125 134"/></g>
+  <g fill="#17273e" stroke="#527aaf" stroke-width="2"><rect x="495" y="165" width="210" height="77" rx="14"/><rect x="269" y="357" width="202" height="77" rx="14"/><rect x="729" y="357" width="202" height="77" rx="14"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#d2e2f8" text-anchor="middle"><text x="600" y="214">Departamento</text><text x="370" y="407">Municipio</text><text x="830" y="407">Municipio</text></g>
+  <g fill="#162238" stroke="#415b80" stroke-width="2"><rect x="190" y="560" width="110" height="65" rx="12"/><rect x="440" y="560" width="110" height="65" rx="12"/><rect x="650" y="560" width="110" height="65" rx="12"/><rect x="900" y="560" width="110" height="65" rx="12"/></g>
+  <g fill="#9db9df" font-family="Consolas,monospace" font-size="20" text-anchor="middle"><text x="245" y="601">01</text><text x="495" y="601">02</text><text x="705" y="601">03</text><text x="955" y="601">04</text></g>
+  <g fill="#94b7ee"><circle cx="600" cy="251" r="5"/><circle cx="370" cy="346" r="5"/><circle cx="830" cy="346" r="5"/></g>
+  <path d="M65 702h1070" stroke="#344764"/>
+  <text x="65" y="747" fill="#849abb" font-family="Consolas,monospace" font-size="13" letter-spacing="1.3">INSERTAR · BUSCAR · RECORRER · BALANCEAR</text>
+  <text x="1135" y="747" text-anchor="end" fill="#607a9f" font-family="Consolas,monospace" font-size="12">DIAGRAMA CONCEPTUAL</text>
+</svg>
