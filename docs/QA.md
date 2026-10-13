@@ -74,3 +74,11 @@ Se conserva arriba la revisión histórica del 1 de octubre; sus pruebas de nave
 - Comprobaciones estáticas: un h1/main, IDs únicos, destinos internos, recursos locales, símbolos SVG, dimensiones de imágenes, enlaces externos con noopener/noreferrer, sintaxis JavaScript y `git diff --check`. Los nuevos estilos reutilizan los breakpoints de 800 y 600 px; no se afirma haber comprobado su renderizado responsive en esta actualización.
 - Límite de verificación: no se repitió QA visual/responsive ni axe del portafolio en navegador. Este entorno no dispone de la habilidad control-browser requerida por la vista previa gestionada. No se arranca un servidor alternativo ni se modifica el despliegue.
 - El trabajo se mantiene en `feature/portfolio-v2`; no se fusiona con main ni se cambia Pages.
+
+## Iconos de tecnologías — 13 de octubre de 2026
+
+- Logos SVG locales con nombres visibles en tecnologías principales, listas por área, etiquetas de proyectos, stacks compactos y portada.
+- React/TypeScript, Git/GitHub, Linux/VPS y Docker/Compose se separan en elementos individuales; se mantienen las tecnologías existentes.
+- Iconos decorativos (`alt=""`, `aria-hidden="true"`) y medidas explícitas; el nombre sigue siendo texto real. GitHub monocromo se adapta al fondo oscuro.
+- WPF/WinForms/ASP.NET comparten el icono de su familia .NET; Tkinter el de Python. REST, VPS, hosting, algoritmos, OBS WebSocket y SSE mantienen símbolos genéricos del sprite, con su nombre escrito.
+- Se verifican recursos, símbolos SVG, nombres en todas las etiquetas, dimensiones de iconos, licencia local y ausencia de recursos remotos. Sintaxis JS y diff sin errores. No se repite QA visual de navegador por la limitación de vista previa documentada arriba.

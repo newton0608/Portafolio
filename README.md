@@ -61,4 +61,4 @@ El sitio público contiene solo contacto profesional: correo, GitHub y LinkedIn.
 
 ## Recursos
 
-Manrope se distribuye con la licencia SIL Open Font License incluida en `assets/fonts/OFL.txt`. Los iconos e ilustraciones de esta versión son SVG locales. No se utiliza una biblioteca de iconos ni imágenes enlazadas desde servicios externos.
+Manrope se distribuye con la licencia SIL Open Font License incluida en `assets/fonts/OFL.txt`. Los iconos de interfaz e ilustraciones son SVG locales. Las tecnologías usan el logo oficial de .NET y SVG de Devicon guardados en `assets/icons/technologies/`, con sus licencias y origen documentados. Cada icono conserva el nombre visible; no hay dependencias de CDN ni imágenes enlazadas desde servicios externos.
