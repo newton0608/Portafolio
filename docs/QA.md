@@ -62,4 +62,15 @@ El historial original se conserva. La comprobación se refiere a los archivos de
 
 ## Pendientes de contenido
 
-Capturas reales de ResellManager y TreeRoteGT, CV revisado y una demo pública de ResellManager si se habilita. Los puntos de reemplazo y el alcance verificado están documentados en `README.md` y `docs/PROJECTS.md`.
+Captura real de TreeRoteGT y CV revisado. Las capturas reales de ResellManager y el enlace al catálogo público se añadieron el 13 de octubre de 2026. Los puntos de reemplazo y el alcance verificado están documentados en `README.md` y `docs/PROJECTS.md`.
+
+## Actualización del 13 de octubre de 2026
+
+Se conserva arriba la revisión histórica del 1 de octubre; sus pruebas de navegador y axe no se presentan como una nueva ejecución.
+
+- Nombre como h1 de la portada y subtítulo profesional; estilos adaptados a los breakpoints existentes.
+- Capturas del catálogo y detalle público de ResellManager inspeccionadas visualmente y optimizadas a WebP; ambas conservan 1348 × 926 px, dimensiones explícitas, alt descriptivo, lazy loading y enlaces de ampliación disponibles sin JavaScript.
+- Estados y stack contrastados con la documentación actual de los proyectos; se distingue producción, implementación y validación física.
+- Comprobaciones estáticas: un h1/main, IDs únicos, destinos internos, recursos locales, símbolos SVG, dimensiones de imágenes, enlaces externos con noopener/noreferrer, sintaxis JavaScript y `git diff --check`. Los nuevos estilos reutilizan los breakpoints de 800 y 600 px; no se afirma haber comprobado su renderizado responsive en esta actualización.
+- Límite de verificación: no se repitió QA visual/responsive ni axe del portafolio en navegador. Este entorno no dispone de la habilidad control-browser requerida por la vista previa gestionada. No se arranca un servidor alternativo ni se modifica el despliegue.
+- El trabajo se mantiene en `feature/portfolio-v2`; no se fusiona con main ni se cambia Pages.

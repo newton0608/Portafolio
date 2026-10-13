@@ -58,8 +58,9 @@
         <div class="hero-main">
           <div class="hero-copy">
             <p class="availability"><span class="status-dot" aria-hidden="true"></span> Disponible para oportunidades junior</p>
-            <p class="hero-intro">Hola, soy <strong>Isaac Aifan</strong></p>
-            <h1 id="hero-title">Software<br>Developer<span class="accent">.</span></h1>
+            <p class="hero-intro">Hola, soy</p>
+            <h1 id="hero-title">Isaac<br><span class="hero-surname">Aifan<span class="accent">.</span></span></h1>
+            <p class="hero-role">Software Developer</p>
             <p class="hero-stack">C# <span>·</span> .NET <span>·</span> SQL <span class="stack-divider" aria-hidden="true"></span><span class="stack-caption">Aplicaciones y sistemas</span></p>
             <p class="hero-description">Desarrollo aplicaciones y sistemas para resolver problemas reales. Me interesa lo que sucede detrás de la interfaz: el backend, la arquitectura y la automatización.</p>
             <div class="hero-actions">
@@ -93,27 +94,36 @@
 
         <article class="project-card project-featured reveal" aria-labelledby="resell-title" data-spotlight>
           <div class="featured-copy">
-            <div class="project-topline"><span class="project-kicker">PROYECTO PRINCIPAL</span><span class="badge badge-blue"><span class="status-dot" aria-hidden="true"></span> V1 en producción</span></div>
+            <div class="project-topline"><span class="project-kicker">PROYECTO PRINCIPAL</span><span class="badge badge-blue"><span class="status-dot" aria-hidden="true"></span> V1.4 en producción</span></div>
             <h3 id="resell-title">ResellManager<span class="accent">.</span></h3>
-            <p class="project-summary">Una plataforma para llevar el control de un negocio de reventa, desde la compra del producto hasta el cobro de la venta.</p>
+            <p class="project-summary">Una plataforma para gestionar un negocio de reventa, desde la compra hasta el cobro, con un catálogo público que conecta la operación con Virtuosa Store.</p>
             <div class="project-problem"><span class="meta-label">EL PROBLEMA</span><p>Centralizar productos, inventario, clientes y cuentas por cobrar para gestionar la operación comercial en un solo lugar.</p></div>
             <ul class="feature-list">
               <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Compras, recepción e inventario</li>
               <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Pedidos, reservas, ventas y pagos</li>
-              <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Autenticación privada y dashboard operativo</li>
+              <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Scanner de códigos de barras y alta asistida de productos</li>
+              <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Catálogo público, galería con zoom y filtros por categoría y marca</li>
             </ul>
-            <ul class="tech-tags" aria-label="Tecnologías de ResellManager"><li>C#</li><li>.NET 8</li><li>Blazor</li><li>EF Core</li><li>SQLite</li></ul>
+            <ul class="tech-tags" aria-label="Tecnologías de ResellManager"><li>C#</li><li>.NET 10</li><li>Blazor</li><li>EF Core</li><li>SQLite</li></ul>
             <div class="project-links">
               <a class="text-link" href="https://github.com/newton0608/ResellManager" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de ResellManager, abre una pestaña nueva"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#github"></use></svg> Ver repositorio <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
-              <span class="project-note">Acceso privado a la aplicación</span>
-              <!-- TODO: añadir una demo pública cuando exista; no enlazar al entorno privado de producción. -->
+              <a class="text-link" href="https://virtuosagt.com/" target="_blank" rel="noopener noreferrer" aria-label="Ver el catálogo público de Virtuosa Store, abre una pestaña nueva">Ver catálogo <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
+              <span class="project-note">Administración privada · catálogo público</span>
             </div>
           </div>
-          <figure class="featured-preview">
-            <!-- TODO: sustituir por una captura real de ResellManager, sin datos de clientes. -->
-            <div class="featured-image-wrap"><img src="assets/images/resellmanager-preview.svg" alt="Vista conceptual del inventario de ResellManager. No es una captura de la aplicación." width="1080" height="900" loading="lazy" decoding="async"></div>
-            <figcaption><span class="preview-dot" aria-hidden="true"></span> Vista conceptual <span>Captura real pendiente</span></figcaption>
-          </figure>
+          <div class="featured-gallery" role="group" aria-label="Capturas reales de ResellManager">
+            <figure class="screenshot-frame">
+              <div class="browser-bar" aria-hidden="true"><span class="browser-dots"><i></i><i></i><i></i></span><span>virtuosagt.com · catálogo</span><svg class="icon"><use href="assets/icons/sprite.svg#lock"></use></svg></div>
+              <a class="screenshot-link" href="assets/images/resellmanager-catalogo.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura del catálogo de ResellManager, abre una pestaña nueva"><img src="assets/images/resellmanager-catalogo.webp" alt="Catálogo real de Virtuosa Store en ResellManager, con filtros de categoría, marca y subcategorías y tarjetas de productos." width="1348" height="926" loading="lazy" decoding="async"></a>
+              <figcaption><span>Catálogo público · filtros y productos</span><span>Ampliar ↗</span></figcaption>
+            </figure>
+            <figure class="screenshot-frame">
+              <div class="browser-bar" aria-hidden="true"><span class="browser-dots"><i></i><i></i><i></i></span><span>virtuosagt.com · detalle de producto</span><svg class="icon"><use href="assets/icons/sprite.svg#lock"></use></svg></div>
+              <a class="screenshot-link" href="assets/images/resellmanager-detalle.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura del detalle de producto de ResellManager, abre una pestaña nueva"><img src="assets/images/resellmanager-detalle.webp" alt="Detalle real de un producto en Virtuosa Store, con fotografía, disponibilidad, descripción y datos de presentación." width="1348" height="926" loading="lazy" decoding="async"></a>
+              <figcaption><span>Detalle de producto · imagen y disponibilidad</span><span>Ampliar ↗</span></figcaption>
+            </figure>
+            <p class="gallery-note">Capturas reales del catálogo de ResellManager · <time datetime="2026-10-13">13 oct 2026</time></p>
+          </div>
         </article>
 
         <div class="projects-grid">
@@ -124,13 +134,13 @@
               <figcaption class="image-caption">Captura del sitio publicado</figcaption>
             </figure>
             <div class="secondary-copy">
-              <div class="project-topline"><span class="project-kicker">WEB INSTITUCIONAL</span><span class="badge">Publicado</span></div>
+              <div class="project-topline"><span class="project-kicker">WEB INSTITUCIONAL</span><span class="badge badge-green">Publicado · activo</span></div>
               <h3 id="church-title">Iglesia de Cristo<br>Palabra Viva y Eficaz</h3>
               <p class="project-summary">Un sitio real, publicado y utilizado, que acerca horarios, transmisiones y discipulado a su comunidad desde cualquier dispositivo.</p>
               <ul class="feature-list">
                 <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Contenido dinámico y próxima reunión automática</li>
                 <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Integración con YouTube Data API</li>
-                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Diseño responsive, dominio y despliegue en GitHub Pages</li>
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Diseño responsive, dominio propio y mantenimiento continuo</li>
               </ul>
               <ul class="tech-tags" aria-label="Tecnologías del sitio de la iglesia"><li>HTML5</li><li>Tailwind CSS</li><li>JavaScript</li><li>APIs</li></ul>
               <div class="project-links">
@@ -153,9 +163,9 @@
               <ul class="feature-list">
                 <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Árboles ABB y AVL, búsquedas y recorridos</li>
                 <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Gestores de departamentos y municipios</li>
-                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Arquitectura por capas y base de interfaz WPF</li>
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Visualizador de árboles en WPF con zoom y desplazamiento</li>
               </ul>
-              <p class="project-note development-note">Interfaz, rutas y grafos: trabajo en desarrollo.</p>
+              <p class="project-note development-note">Visualizador implementado; integración de interfaz, rutas y grafos en desarrollo.</p>
               <ul class="tech-tags" aria-label="Tecnologías de TreeRoteGT"><li>C#</li><li>.NET 8</li><li>WPF</li><li>Algoritmos</li></ul>
               <div class="project-links">
                 <a class="text-link" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20TreeRoteGT">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
@@ -168,14 +178,26 @@
         <div class="other-projects reveal">
           <div class="other-projects-heading"><h3>Otros proyectos</h3><a class="text-link text-link-muted" href="https://github.com/newton0608?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="Explorar repositorios de GitHub, abre una pestaña nueva">Explorar GitHub <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
           <div class="other-projects-grid">
+            <article class="small-project">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#network"></use></svg></span>
+              <div><h4>DeployManager</h4><span class="small-project-status">Motor implementado</span><p>Motor para desplegar proyectos Git/Docker en un VPS, con CLI, API local, historial, comprobación de salud y rollback.</p><span class="small-project-stack">Python · FastAPI · SQLite · Docker</span><a class="text-link text-link-muted" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20DeployManager">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+            </article>
+            <article class="small-project">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#desktop"></use></svg></span>
+              <div><h4>Atril</h4><span class="small-project-status">En validación</span><p>Aplicación de escritorio para el pastor: preview de OBS, chat de Social Stream, viewers de Streamlabs y tiempo real de transmisión.</p><span class="small-project-stack">Electron · React · TypeScript · OBS WebSocket</span><a class="text-link text-link-muted" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20Atril">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+            </article>
+            <article class="small-project">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#video"></use></svg></span>
+              <div><h4>StreamConsole</h4><span class="small-project-status">Demo funcional · validación física pendiente</span><p>Consola local con macros e integraciones de OBS, ATEM y Holyrics, con control adaptado a un iPhone 5s.</p><span class="small-project-stack">C# · .NET 8 · API REST · SSE</span><a class="text-link text-link-muted" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20StreamConsole">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+            </article>
             <a class="small-project" href="https://github.com/newton0608/502FerreSA" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Ferre502SA, abre una pestaña nueva">
               <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#desktop"></use></svg></span>
-              <div><h4>Ferre502SA</h4><p>Sistema de escritorio para una ferretería, con inventarios, ventas y envíos.</p><span class="small-project-stack">C# · WinForms · SQL Server</span></div>
+              <div><h4>Ferre502SA</h4><span class="small-project-status">Proyecto académico</span><p>Sistema de escritorio para una ferretería, con inventarios, ventas y envíos.</p><span class="small-project-stack">C# · WinForms · SQL Server</span></div>
               <svg class="icon small-project-arrow" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg>
             </a>
             <a class="small-project" href="https://github.com/newton0608/currency-converter" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Currency Converter, abre una pestaña nueva">
               <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#exchange"></use></svg></span>
-              <div><h4>Currency Converter</h4><p>Conversor de monedas con tasas de una API, en consola y con interfaz gráfica.</p><span class="small-project-stack">Python · Tkinter · API REST</span></div>
+              <div><h4>Currency Converter</h4><span class="small-project-status">Implementado</span><p>Conversor de monedas con tasas de una API, en consola y con interfaz gráfica.</p><span class="small-project-stack">Python · Tkinter · API REST</span></div>
               <svg class="icon small-project-arrow" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg>
             </a>
           </div>
@@ -210,9 +232,9 @@
         </div>
         <div class="technology-groups reveal">
           <div class="technology-group"><h3>Desktop</h3><ul><li>WPF</li><li>WinForms</li></ul></div>
-          <div class="technology-group"><h3>Web</h3><ul><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>ASP.NET</li></ul></div>
+          <div class="technology-group"><h3>Web</h3><ul><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>ASP.NET</li><li>Blazor</li><li>React / TypeScript</li></ul></div>
           <div class="technology-group"><h3>Datos</h3><ul><li>SQL Server</li><li>PostgreSQL</li><li>SQLite</li></ul></div>
-          <div class="technology-group"><h3>Herramientas</h3><ul><li>Git / GitHub</li><li>Visual Studio</li><li>APIs REST</li><li>Linux / VPS</li><li>Hosting y dominios</li></ul></div>
+          <div class="technology-group"><h3>Herramientas</h3><ul><li>Git / GitHub</li><li>Visual Studio</li><li>APIs REST</li><li>Linux / VPS</li><li>Docker / Compose</li><li>Hosting y dominios</li></ul></div>
         </div>
         <p class="additional-tech reveal"><span>También trabajo y aprendo con</span> C++ <span class="accent" aria-hidden="true">/</span> Python</p>
       </section>

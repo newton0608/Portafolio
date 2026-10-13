@@ -20,7 +20,7 @@ css/styles.css            Variables, componentes y responsive
 js/main.js                Menú, observadores, año y copiar correo
 assets/fonts/             Manrope variable y licencia OFL
 assets/icons/             Favicon e iconos SVG locales
-assets/images/            Ilustraciones, captura y Open Graph
+assets/images/            Ilustraciones, capturas reales y Open Graph
 docs/PROJECTS.md          Fuentes y alcance de los proyectos
 docs/QA.md                Validación de la implementación
 scripts/serve.mjs          Vista previa local sin dependencias
@@ -37,14 +37,21 @@ Las rutas de los recursos son relativas para funcionar en un sitio de proyecto c
 - Las animaciones respetan `prefers-reduced-motion`. Sin JavaScript, contenido y enlaces siguen visibles; el menú se muestra expandido.
 - Tailwind aparece únicamente como tecnología del proyecto de la iglesia. No se utiliza para construir este portafolio.
 
+## Estado del contenido — 13 de octubre de 2026
+
+- El nombre es el título principal de la portada; Software Developer queda como subtítulo.
+- ResellManager se presenta como V1.4 en producción, con .NET 10, scanner y catálogo público de Virtuosa Store.
+- Las capturas reales `resellmanager-catalogo.webp` y `resellmanager-detalle.webp` muestran el catálogo público; se amplían mediante enlaces normales y funcionan sin JavaScript. Cada una pesa menos de 70 KB y conserva el viewport completo de 1348 × 926 px.
+- Se añaden DeployManager, Atril y StreamConsole con estados diferenciados. Sus repositorios son privados y los visitantes pueden consultar por correo.
+- TreeRoteGT conserva su estado en desarrollo, reconociendo el visualizador con zoom/desplazamiento que ya está implementado.
+
 ## Pendientes de contenido
 
-1. **ResellManager:** sustituir `assets/images/resellmanager-preview.svg` por una captura real sin datos de clientes; actualizar `src`, dimensiones, `alt` y leyenda. La ilustración actual está identificada como vista conceptual. Añadir una demo solo si existe un entorno público: la producción requiere autenticación.
-2. **TreeRoteGT:** sustituir `assets/images/treerotegt-preview.svg` cuando haya una captura de la interfaz. Actualmente el proyecto es privado; su enlace requiere acceso. La interfaz, los grafos y las rutas siguen en desarrollo y se presentan de esa forma.
-3. **CV:** al disponer de un PDF revisado, guardarlo como `assets/cv/Isaac-Aifan-CV.pdf` y añadir un enlace con `download` en `.hero-actions`. El punto de inserción está comentado; no hay un botón que apunte a un archivo inexistente.
-4. Si cambia el dominio del portafolio, actualizar `canonical`, `og:url`, `og:image` y `twitter:image` en `index.html`, además de `robots.txt` y `sitemap.xml`.
+1. **TreeRoteGT:** sustituir `assets/images/treerotegt-preview.svg` cuando haya una captura de la interfaz. El visualizador existe; su integración con las pantallas, rutas y grafos sigue en desarrollo. El repositorio es privado.
+2. **CV:** al disponer de un PDF revisado, guardarlo como `assets/cv/Isaac-Aifan-CV.pdf` y añadir un enlace con `download` en `.hero-actions`. El punto de inserción está comentado.
+3. Si cambia el dominio del portafolio, actualizar `canonical`, `og:url`, `og:image` y `twitter:image` en `index.html`, además de `robots.txt` y `sitemap.xml`.
 
-La imagen Open Graph es `assets/images/og-cover.png`; su fuente editable es `og-cover.svg`. La captura del sitio de la iglesia se guardó localmente el 1 de octubre de 2026.
+La imagen Open Graph es `assets/images/og-cover.png`; su fuente editable es `og-cover.svg`. La captura de la iglesia se guardó el 1 de octubre de 2026 y las de ResellManager el 13 de octubre de 2026. Solo contienen vistas públicas, sin datos de clientes ni información del panel administrativo.
 
 ## GitHub Pages
 

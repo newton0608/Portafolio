@@ -2,9 +2,9 @@
   <defs><radialGradient id="bg" cx=".88" cy=".25" r=".7"><stop stop-color="#1b2b46"/><stop offset="1" stop-color="#0b0e14"/></radialGradient></defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
   <rect x="48" y="48" width="1104" height="534" rx="22" stroke="#293b58"/>
-  <text x="94" y="132" fill="#c8d3e8" font-family="Segoe UI,Arial,sans-serif" font-size="25">Isaac Aifan</text>
-  <text x="90" y="275" fill="#f0f2f7" font-family="Segoe UI,Arial,sans-serif" font-size="88" font-weight="600" letter-spacing="-4">Software</text>
-  <text x="90" y="367" fill="#f0f2f7" font-family="Segoe UI,Arial,sans-serif" font-size="88" font-weight="600" letter-spacing="-4">Developer<tspan fill="#548bff">.</tspan></text>
+  <text x="94" y="132" fill="#c8d3e8" font-family="Segoe UI,Arial,sans-serif" font-size="25">Software Developer</text>
+  <text x="90" y="275" fill="#f0f2f7" font-family="Segoe UI,Arial,sans-serif" font-size="88" font-weight="600" letter-spacing="-4">Isaac</text>
+  <text x="90" y="367" fill="#f0f2f7" font-family="Segoe UI,Arial,sans-serif" font-size="88" font-weight="600" letter-spacing="-4">Aifan<tspan fill="#548bff">.</tspan></text>
   <text x="96" y="439" fill="#a6bde3" font-family="Consolas,monospace" font-size="23">C# · .NET · SQL</text>
   <path d="M94 492h1012" stroke="#2a384e"/>
   <text x="96" y="535" fill="#a7afbf" font-family="Segoe UI,Arial,sans-serif" font-size="17">Aplicaciones y sistemas para resolver problemas reales.</text>
