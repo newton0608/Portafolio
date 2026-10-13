@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="900" viewBox="0 0 1080 900" fill="none">
+  <defs><linearGradient id="panel" x1="120" y1="90" x2="950" y2="840" gradientUnits="userSpaceOnUse"><stop stop-color="#172132"/><stop offset="1" stop-color="#0f1724"/></linearGradient><linearGradient id="chart" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#558beb" stop-opacity=".2"/><stop offset="1" stop-color="#558beb" stop-opacity="0"/></linearGradient></defs>
+  <rect x="46" y="72" width="988" height="756" rx="20" fill="url(#panel)" stroke="#3b4c68" stroke-width="2"/>
+  <path d="M46 142h988" stroke="#2e3e55"/>
+  <g fill="#547094"><circle cx="76" cy="106" r="5"/><circle cx="94" cy="106" r="5"/><circle cx="112" cy="106" r="5"/></g>
+  <rect x="304" y="90" width="465" height="33" rx="8" fill="#101a29" stroke="#2a3a51"/>
+  <text x="537" y="112" text-anchor="middle" fill="#7c8ca5" font-family="Consolas,monospace" font-size="12">ResellManager / inventario</text>
+  <path d="M255 142v686" stroke="#2a3950"/>
+  <rect x="74" y="174" width="30" height="30" rx="8" fill="#315ba1"/><path d="M83 194v-11h7c5 0 5 7 0 7h-7m6 0 5 5" stroke="#dceaff" stroke-width="2"/>
+  <text x="116" y="195" fill="#dae3f1" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600">ResellManager</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8d9cb3"><text x="106" y="267">Dashboard</text><text x="106" y="319">Productos</text><text x="106" y="425">Compras</text><text x="106" y="477">Pedidos</text><text x="106" y="529">Ventas</text><text x="106" y="581">Clientes</text></g>
+  <rect x="65" y="342" width="173" height="48" rx="8" fill="#243b5f"/><text x="106" y="372" fill="#a7c6ff" font-family="Segoe UI,Arial,sans-serif" font-size="13">Inventario</text>
+  <g stroke="#627693" stroke-width="1.4"><rect x="79" y="256" width="11" height="11" rx="2"/><rect x="79" y="308" width="11" height="11" rx="2"/><rect x="79" y="361" width="11" height="11" rx="2" stroke="#9ebefd"/><rect x="79" y="414" width="11" height="11" rx="2"/><rect x="79" y="466" width="11" height="11" rx="2"/><rect x="79" y="518" width="11" height="11" rx="2"/><rect x="79" y="570" width="11" height="11" rx="2"/></g>
+  <text x="291" y="194" fill="#8d9db5" font-family="Consolas,monospace" font-size="11" letter-spacing="1.2">GESTIÓN COMERCIAL</text>
+  <text x="291" y="241" fill="#e3eaf5" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="600">Inventario</text>
+  <rect x="843" y="207" width="151" height="39" rx="7" fill="#315fa9"/><text x="918" y="232" text-anchor="middle" fill="#e8f0ff" font-family="Segoe UI,Arial,sans-serif" font-size="12">Recepción de compra</text>
+  <g fill="#121e30" stroke="#30415c"><rect x="291" y="280" width="219" height="114" rx="10"/><rect x="533" y="280" width="219" height="114" rx="10"/><rect x="775" y="280" width="219" height="114" rx="10"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#b2c0d4"><text x="312" y="311">Productos</text><text x="554" y="311">Disponibles</text><text x="796" y="311">Reservados</text></g>
+  <g stroke="#80a6df" stroke-width="3" stroke-linecap="round"><path d="M313 345h50m193 0h50m193 0h50"/></g>
+  <g fill="#596e8e"><rect x="312" y="369" width="116" height="4" rx="2"/><rect x="554" y="369" width="110" height="4" rx="2"/><rect x="796" y="369" width="108" height="4" rx="2"/></g>
+  <rect x="291" y="422" width="703" height="51" rx="8" fill="#101b2b" stroke="#2c3d55"/><circle cx="316" cy="446" r="6" stroke="#6d809c"/><path d="m321 451 4 4" stroke="#6d809c"/><text x="342" y="451" fill="#7b8da9" font-family="Segoe UI,Arial,sans-serif" font-size="12">Buscar productos...</text>
+  <rect x="291" y="496" width="703" height="251" rx="10" fill="#101b2b" stroke="#2d3e57"/>
+  <path d="M291 548h703m-703 64h703m-703 65h703" stroke="#27384e"/>
+  <g font-family="Consolas,monospace" font-size="10" fill="#7f95b4" letter-spacing="1"><text x="315" y="527">CÓDIGO</text><text x="433" y="527">PRODUCTO</text><text x="795" y="527">ESTADO</text></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#a8b8ce"><text x="315" y="587">RM-001</text><text x="433" y="587">Producto de ejemplo 01</text><text x="315" y="651">RM-002</text><text x="433" y="651">Producto de ejemplo 02</text><text x="315" y="716">RM-003</text><text x="433" y="716">Producto de ejemplo 03</text></g>
+  <g fill="#1d3551" stroke="#344e6d"><rect x="795" y="566" width="112" height="29" rx="6"/><rect x="795" y="630" width="112" height="29" rx="6"/><rect x="795" y="695" width="112" height="29" rx="6"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#96b8e8"><text x="815" y="585">Disponible</text><text x="815" y="649">Disponible</text><text x="815" y="714">Reservado</text></g>
+  <text x="291" y="789" fill="#7085a6" font-family="Consolas,monospace" font-size="10" letter-spacing=".8">VISTA CONCEPTUAL · DATOS ILUSTRATIVOS</text>
+  <text x="970" y="789" text-anchor="end" fill="#89a5cf" font-family="Consolas,monospace" font-size="10">C# / .NET / SQLite</text>
+</svg>

@@ -1,116 +1,259 @@
-<!-- Portfolio Page HTML/CSS/JS combined -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio - Isaac Aifan</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background: #0d0d0f;
-            color: #e5e5e5;
-        }
-        header {
-            padding: 40px 20px;
-            text-align: center;
-            background: linear-gradient(to bottom, #11121a, #0d0d0f);
-            border-bottom: 2px solid #2b2d42;
-        }
-        h1 span {
-            color: #00c6ff;
-            text-shadow: 0 0 12px rgba(0,198,255,0.8);
-        }
-        h2.section-title {
-            text-align: center;
-            margin-top: 40px;
-            color: #00c6ff;
-            text-shadow: 0 0 8px rgba(0,198,255,0.7);
-        }
-        .card {
-            background: rgba(255,255,255,0.05);
-            padding: 25px;
-            margin: 20px auto;
-            width: 90%;
-            max-width: 900px;
-            border-radius: 15px;
-            border: 1px solid rgba(255,255,255,0.1);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-            backdrop-filter: blur(8px);
-            transition: 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 30px rgba(0,198,255,0.2);
-        }
-        .project-card {
-            margin-bottom: 25px;
-        }
-        a {
-            color: #00c6ff;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1><span>Isaac Pablo Joel Aifan Gómez</span></h1>
-        <p>Desarrollador junior | Programación | Bases de datos | Web | Sistemas</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0b0e14">
+    <title>Isaac Aifan — Software Developer | C#, .NET y SQL</title>
+    <meta name="description" content="Portafolio de Isaac Aifan, desarrollador de software y estudiante de Ingeniería en Sistemas. Aplicaciones con C#, .NET y SQL, proyectos reales y experiencia en operación técnica.">
+    <meta name="author" content="Isaac Aifan">
+    <link rel="canonical" href="https://newton0608.github.io/Portafolio/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_GT">
+    <meta property="og:site_name" content="Isaac Aifan — Portafolio">
+    <meta property="og:title" content="Isaac Aifan — Software Developer">
+    <meta property="og:description" content="C# · .NET · SQL. Aplicaciones y sistemas orientados a resolver problemas reales.">
+    <meta property="og:url" content="https://newton0608.github.io/Portafolio/">
+    <meta property="og:image" content="https://newton0608.github.io/Portafolio/assets/images/og-cover.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Isaac Aifan. Software Developer. C#, .NET y SQL.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Isaac Aifan — Software Developer">
+    <meta name="twitter:description" content="Aplicaciones y sistemas orientados a resolver problemas reales.">
+    <meta name="twitter:image" content="https://newton0608.github.io/Portafolio/assets/images/og-cover.png">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="preload" href="assets/fonts/manrope-latin.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+      <div class="container nav-container">
+        <a class="brand" href="#inicio" aria-label="Isaac Aifan, ir al inicio">
+          <span class="brand-mark" aria-hidden="true">ia<span>.</span></span>
+          <span class="brand-name">Isaac Aifan</span>
+        </a>
+        <nav class="navigation" aria-label="Navegación principal">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación" data-nav-toggle>
+            <span class="nav-toggle-lines" aria-hidden="true"></span>
+          </button>
+          <ul class="nav-menu" id="nav-menu" data-nav-menu>
+            <li><a class="nav-link is-active" href="#inicio" aria-current="location">Inicio</a></li>
+            <li><a class="nav-link" href="#proyectos">Proyectos</a></li>
+            <li><a class="nav-link" href="#experiencia">Experiencia</a></li>
+            <li><a class="nav-link" href="#tecnologias">Tecnologías</a></li>
+            <li><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+            <li><a class="nav-link nav-contact" href="#contacto">Contacto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <h2 class="section-title">Sobre mí</h2>
-    <div class="card">
-        <p>Soy un desarrollador apasionado por la tecnología, con enfoque en programación, bases de datos y creación de soluciones prácticas. Me gusta entender cómo funcionan las cosas, aprender constantemente y construir proyectos útiles. Tengo experiencia en desarrollo de sistemas, diseño de bases de datos, automatización, servidores, consumo de APIs y programación web.</p>
-        <p>Busco oportunidades donde pueda crecer profesionalmente, aportar con mis habilidades y aprender nuevas tecnologías.</p>
-    </div>
+    <main id="contenido" tabindex="-1">
+      <section class="hero container" id="inicio" aria-labelledby="hero-title" data-nav-section>
+        <div class="hero-main">
+          <div class="hero-copy">
+            <p class="availability"><span class="status-dot" aria-hidden="true"></span> Disponible para oportunidades junior</p>
+            <p class="hero-intro">Hola, soy</p>
+            <h1 id="hero-title">Isaac<br><span class="hero-surname">Aifan<span class="accent">.</span></span></h1>
+            <p class="hero-role">Software Developer</p>
+            <p class="hero-stack"><span class="hero-tech"><img class="tech-icon" src="assets/icons/technologies/csharp.svg" alt="" aria-hidden="true" width="24" height="24" loading="eager" decoding="async"><span>C#</span></span><span class="hero-tech"><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="eager" decoding="async"><span>.NET</span></span><span class="hero-tech"><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#database"></use></svg><span>SQL</span></span> <span class="stack-divider" aria-hidden="true"></span><span class="stack-caption">Aplicaciones y sistemas</span></p>
+            <p class="hero-description">Desarrollo aplicaciones y sistemas para resolver problemas reales. Me interesa lo que sucede detrás de la interfaz: el backend, la arquitectura y la automatización.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#proyectos">Ver proyectos <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-down"></use></svg></a>
+              <a class="button button-secondary" href="https://github.com/newton0608" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Isaac Aifan, abre una pestaña nueva"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#github"></use></svg> GitHub</a>
+              <a class="button button-quiet" href="https://www.linkedin.com/in/isaac-pablo-joel-aifan-g%C3%B3mez-801a85345" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Isaac Aifan, abre una pestaña nueva">LinkedIn <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
+              <!-- TODO: añadir el enlace de descarga aquí cuando exista assets/cv/Isaac-Aifan-CV.pdf. -->
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-grid"></div>
+            <img class="architecture-art" src="assets/images/software-layers.svg" alt="" width="560" height="520" fetchpriority="high">
+            <div class="visual-caption"><span class="caption-line"></span> Lógica. Estructura. Soluciones.</div>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <p><span class="meta-label">ENFOQUE PRINCIPAL</span> Desarrollo de software &amp; backend</p>
+          <p><span class="meta-label">UN PLUS TÉCNICO</span> Operación de sistemas &amp; soporte TI</p>
+          <a class="scroll-link" href="#proyectos">Explora mi trabajo <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-down"></use></svg></a>
+        </div>
+      </section>
 
-    <h2 class="section-title">Habilidades</h2>
-    <div class="card">
-        <p><strong>Lenguajes:</strong> C#, C++, Python</p>
-        <p><strong>Bases de datos:</strong> SQL Server, PostgreSQL, Azure</p>
-        <p><strong>Desarrollo Web:</strong> HTML5, CSS, JavaScript</p>
-        <p><strong>Frameworks:</strong> Node.js (básico), React (básico), .NET (ASP.NET / .NET Core) (intermedio)</p>
-        <p><strong>Sistemas & Servidores:</strong> Configuración básica, dominios, hosting, APIs</p>
-        <p><strong>Desarrolo de interfaces gráficas:</strong> WinForms, WPF</p>
-        <p><strong>Extras:</strong> Git, GitHub, manejo de entornos locales, buenas prácticas de programación, autodidacta</p>
-    </div>
+      <section class="section container" id="proyectos" aria-labelledby="projects-title" data-nav-section>
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span>01</span> / PROYECTOS SELECCIONADOS</p>
+            <h2 id="projects-title">Código que resuelve<br>problemas reales<span class="accent">.</span></h2>
+          </div>
+          <p class="section-description">Una selección de sistemas, aplicaciones y sitios web. Del problema inicial a una solución que se puede usar.</p>
+        </div>
 
-    <h2 class="section-title">Proyectos</h2>
-    <div class="card project-card">
-        <h3>Página Iglesia Palabra Viva y Eficaz</h3>
-        <a href="https://github.com/newton0608/Pagina-Iglesia.git">Ver código</a> | 
-        <a href="https://www.palabravivayeficaz.org/">Sitio en línea</a>
-    </div>
-    <div class="card project-card">
-        <h3>Sistema Ferre502SA</h3>
-        <a href="https://github.com/newton0608/502FerreSA.git">Ver repositorio</a>
-    </div>
-    <div class="card project-card">
-        <h3>Conversor de Monedas</h3>
-        <a href="https://github.com/newton0608/currency-converter.git">Ver repositorio</a>
-    </div>
+        <article class="project-card project-featured reveal" aria-labelledby="resell-title" data-spotlight>
+          <div class="featured-copy">
+            <div class="project-topline"><span class="project-kicker">PROYECTO PRINCIPAL</span><span class="badge badge-blue"><span class="status-dot" aria-hidden="true"></span> V1.4 en producción</span></div>
+            <h3 id="resell-title">ResellManager<span class="accent">.</span></h3>
+            <p class="project-summary">Una plataforma para gestionar un negocio de reventa, desde la compra hasta el cobro, con un catálogo público que conecta la operación con Virtuosa Store.</p>
+            <div class="project-problem"><span class="meta-label">EL PROBLEMA</span><p>Centralizar productos, inventario, clientes y cuentas por cobrar para gestionar la operación comercial en un solo lugar.</p></div>
+            <ul class="feature-list">
+              <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Compras, recepción e inventario</li>
+              <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Pedidos, reservas, ventas y pagos</li>
+              <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Scanner de códigos de barras y alta asistida de productos</li>
+              <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Catálogo público, galería con zoom y filtros por categoría y marca</li>
+            </ul>
+            <ul class="tech-tags" aria-label="Tecnologías de ResellManager"><li><img class="tech-icon" src="assets/icons/technologies/csharp.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>C#</span></li><li><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>.NET 10</span></li><li><img class="tech-icon" src="assets/icons/technologies/blazor.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Blazor</span></li><li><img class="tech-icon" src="assets/icons/technologies/entityframeworkcore.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>EF Core</span></li><li><img class="tech-icon" src="assets/icons/technologies/sqlite.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>SQLite</span></li></ul>
+            <div class="project-links">
+              <a class="text-link" href="https://github.com/newton0608/ResellManager" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de ResellManager, abre una pestaña nueva"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#github"></use></svg> Ver repositorio <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
+              <a class="text-link" href="https://virtuosagt.com/" target="_blank" rel="noopener noreferrer" aria-label="Ver el catálogo público de Virtuosa Store, abre una pestaña nueva">Ver catálogo <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
+              <span class="project-note">Administración privada · catálogo público</span>
+            </div>
+          </div>
+          <div class="featured-gallery" role="group" aria-label="Capturas reales de ResellManager">
+            <figure class="screenshot-frame">
+              <div class="browser-bar" aria-hidden="true"><span class="browser-dots"><i></i><i></i><i></i></span><span>virtuosagt.com · catálogo</span><svg class="icon"><use href="assets/icons/sprite.svg#lock"></use></svg></div>
+              <a class="screenshot-link" href="assets/images/resellmanager-catalogo.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura del catálogo de ResellManager, abre una pestaña nueva"><img src="assets/images/resellmanager-catalogo.webp" alt="Catálogo real de Virtuosa Store en ResellManager, con filtros de categoría, marca y subcategorías y tarjetas de productos." width="1348" height="926" loading="lazy" decoding="async"></a>
+              <figcaption><span>Catálogo público · filtros y productos</span><span>Ampliar ↗</span></figcaption>
+            </figure>
+            <figure class="screenshot-frame">
+              <div class="browser-bar" aria-hidden="true"><span class="browser-dots"><i></i><i></i><i></i></span><span>virtuosagt.com · detalle de producto</span><svg class="icon"><use href="assets/icons/sprite.svg#lock"></use></svg></div>
+              <a class="screenshot-link" href="assets/images/resellmanager-detalle.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura del detalle de producto de ResellManager, abre una pestaña nueva"><img src="assets/images/resellmanager-detalle.webp" alt="Detalle real de un producto en Virtuosa Store, con fotografía, disponibilidad, descripción y datos de presentación." width="1348" height="926" loading="lazy" decoding="async"></a>
+              <figcaption><span>Detalle de producto · imagen y disponibilidad</span><span>Ampliar ↗</span></figcaption>
+            </figure>
+            <p class="gallery-note">Capturas reales del catálogo de ResellManager · <time datetime="2026-10-13">13 oct 2026</time></p>
+          </div>
+        </article>
 
-    <h2 class="section-title">Educación</h2>
-    <div class="card">
-        <p><strong>Bachillerato en Computación</strong><br>Colegio Tecnológico Mixto Bilingüe “Belén” (2021 - 2023)</p>
-        <p><strong>Ingeniería en Sistemas</strong><br>Universidad Mariano Gálvez (2024 - Actualidad)</p>
-    </div>
+        <div class="projects-grid">
+          <article class="project-card project-secondary reveal" aria-labelledby="church-title" data-spotlight>
+            <figure class="project-image">
+              <div class="browser-bar" aria-hidden="true"><span class="browser-dots"><i></i><i></i><i></i></span><span>palabravivayeficaz.org</span><svg class="icon"><use href="assets/icons/sprite.svg#lock"></use></svg></div>
+              <img src="assets/images/iglesia-screenshot.webp" alt="Captura del sitio publicado de la Iglesia de Cristo Palabra Viva y Eficaz, con su portada y navegación." width="1200" height="800" loading="lazy" decoding="async">
+              <figcaption class="image-caption">Captura del sitio publicado</figcaption>
+            </figure>
+            <div class="secondary-copy">
+              <div class="project-topline"><span class="project-kicker">WEB INSTITUCIONAL</span><span class="badge badge-green">Publicado · activo</span></div>
+              <h3 id="church-title">Iglesia de Cristo<br>Palabra Viva y Eficaz</h3>
+              <p class="project-summary">Un sitio real, publicado y utilizado, que acerca horarios, transmisiones y discipulado a su comunidad desde cualquier dispositivo.</p>
+              <ul class="feature-list">
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Contenido dinámico y próxima reunión automática</li>
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Integración con YouTube Data API</li>
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Diseño responsive, dominio propio y mantenimiento continuo</li>
+              </ul>
+              <ul class="tech-tags" aria-label="Tecnologías del sitio de la iglesia"><li><img class="tech-icon" src="assets/icons/technologies/html5.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>HTML5</span></li><li><img class="tech-icon" src="assets/icons/technologies/tailwindcss.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Tailwind CSS</span></li><li><img class="tech-icon" src="assets/icons/technologies/javascript.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>JavaScript</span></li><li><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#network"></use></svg><span>APIs</span></li></ul>
+              <div class="project-links">
+                <a class="text-link" href="https://www.palabravivayeficaz.org/" target="_blank" rel="noopener noreferrer" aria-label="Visitar el sitio de la iglesia, abre una pestaña nueva">Visitar sitio <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
+                <a class="text-link text-link-muted" href="https://github.com/newton0608/Pagina-Iglesia" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Pagina-Iglesia, abre una pestaña nueva"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#github"></use></svg> Código</a>
+              </div>
+            </div>
+          </article>
 
-    <h2 class="section-title">Referencias</h2>
-    <div class="card">
-        <p><strong>Doctora Crista Barahona</strong><br>Tel: 3368-1771</p>
-        <p><strong>Ingeniero Elvis Morales</strong><br>Tel: 4075-0648</p>
-        <p><strong>Yaneth García</strong><br>Tel: 3574-1110</p>
-    </div>
+          <article class="project-card project-secondary reveal" aria-labelledby="tree-title" data-spotlight>
+            <figure class="project-image tree-preview">
+              <!-- TODO: sustituir por una captura real cuando la interfaz WPF esté lista. -->
+              <img src="assets/images/treerotegt-preview.svg" alt="Diagrama conceptual de un árbol balanceado para TreeRoteGT. No es una captura de su interfaz." width="1200" height="800" loading="lazy" decoding="async">
+              <figcaption class="image-caption">Diagrama conceptual · captura real pendiente</figcaption>
+            </figure>
+            <div class="secondary-copy">
+              <div class="project-topline"><span class="project-kicker">ESTRUCTURAS DE DATOS</span><span class="badge">En desarrollo</span></div>
+              <h3 id="tree-title">TreeRoteGT</h3>
+              <p class="project-summary">Exploración de estructuras de árboles para organizar y consultar departamentos y municipios de Guatemala, con la lógica separada de la presentación.</p>
+              <ul class="feature-list">
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Árboles ABB y AVL, búsquedas y recorridos</li>
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Gestores de departamentos y municipios</li>
+                <li><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#check"></use></svg> Visualizador de árboles en WPF con zoom y desplazamiento</li>
+              </ul>
+              <p class="project-note development-note">Visualizador implementado; integración de interfaz, rutas y grafos en desarrollo.</p>
+              <ul class="tech-tags" aria-label="Tecnologías de TreeRoteGT"><li><img class="tech-icon" src="assets/icons/technologies/csharp.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>C#</span></li><li><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>.NET 8</span></li><li><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>WPF</span></li><li><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#network"></use></svg><span>Algoritmos</span></li></ul>
+              <div class="project-links">
+                <a class="text-link" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20TreeRoteGT">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a>
+                <a class="text-link text-link-muted private-repo" href="https://github.com/newton0608/TreeRoteGT" target="_blank" rel="noopener noreferrer" aria-label="Repositorio privado de TreeRoteGT, requiere acceso y abre una pestaña nueva"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#lock"></use></svg> Repo privado <span class="sr-only">(requiere acceso)</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
 
-    <h2 class="section-title">Contacto</h2>
-    <div class="card">
-        <p><strong>Tel / WhatsApp:</strong> (502) 5985-7725</p>
-        <p><strong>Correo:</strong> isaac06gt@icloud.com</p>
-        <p><strong>Dirección:</strong> 6ta. Avenida 6-58 Zona 1, Barberena Santa Rosa</p>
-        <p><a href="https://github.com/newton0608">GitHub</a></p>
-        <p><a href="https://www.linkedin.com/in/isaac-pablo-joel-aifan-gómez-801a85345">LinkedIn</a></p>
-    </div>
-</body>
+        <div class="other-projects reveal">
+          <div class="other-projects-heading"><h3>Otros proyectos</h3><a class="text-link text-link-muted" href="https://github.com/newton0608?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="Explorar repositorios de GitHub, abre una pestaña nueva">Explorar GitHub <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+          <div class="other-projects-grid">
+            <article class="small-project">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#network"></use></svg></span>
+              <div><h4>DeployManager</h4><span class="small-project-status">Motor implementado</span><p>Motor para desplegar proyectos Git/Docker en un VPS, con CLI, API local, historial, comprobación de salud y rollback.</p><span class="small-project-stack"><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/python.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Python</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/fastapi.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>FastAPI</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/sqlite.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>SQLite</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/docker.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Docker</span></span></span><a class="text-link text-link-muted" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20DeployManager">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+            </article>
+            <article class="small-project">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#desktop"></use></svg></span>
+              <div><h4>Atril</h4><span class="small-project-status">En validación</span><p>Aplicación de escritorio para el pastor: preview de OBS, chat de Social Stream, viewers de Streamlabs y tiempo real de transmisión.</p><span class="small-project-stack"><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/electron.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Electron</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/react.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>React</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/typescript.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>TypeScript</span></span><span class="stack-tech"><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#signal"></use></svg><span>OBS WebSocket</span></span></span><a class="text-link text-link-muted" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20Atril">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+            </article>
+            <article class="small-project">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#video"></use></svg></span>
+              <div><h4>StreamConsole</h4><span class="small-project-status">Demo funcional · validación física pendiente</span><p>Consola local con macros e integraciones de OBS, ATEM y Holyrics, con control adaptado a un iPhone 5s.</p><span class="small-project-stack"><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/csharp.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>C#</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>.NET 8</span></span><span class="stack-tech"><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#network"></use></svg><span>API REST</span></span><span class="stack-tech"><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#signal"></use></svg><span>SSE</span></span></span><a class="text-link text-link-muted" href="mailto:isaac06gt@icloud.com?subject=Consulta%20sobre%20StreamConsole">Consultar proyecto <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+            </article>
+            <a class="small-project" href="https://github.com/newton0608/502FerreSA" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Ferre502SA, abre una pestaña nueva">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#desktop"></use></svg></span>
+              <div><h4>Ferre502SA</h4><span class="small-project-status">Proyecto académico</span><p>Sistema de escritorio para una ferretería, con inventarios, ventas y envíos.</p><span class="small-project-stack"><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/csharp.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>C#</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>WinForms</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/microsoftsqlserver.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>SQL Server</span></span></span></div>
+              <svg class="icon small-project-arrow" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg>
+            </a>
+            <a class="small-project" href="https://github.com/newton0608/currency-converter" target="_blank" rel="noopener noreferrer" aria-label="Ver repositorio de Currency Converter, abre una pestaña nueva">
+              <span class="small-project-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#exchange"></use></svg></span>
+              <div><h4>Currency Converter</h4><span class="small-project-status">Implementado</span><p>Conversor de monedas con tasas de una API, en consola y con interfaz gráfica.</p><span class="small-project-stack"><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/python.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Python</span></span><span class="stack-tech"><img class="tech-icon" src="assets/icons/technologies/python.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Tkinter</span></span><span class="stack-tech"><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#network"></use></svg><span>API REST</span></span></span></div>
+              <svg class="icon small-project-arrow" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tinted" id="experiencia" aria-labelledby="experience-title" data-nav-section>
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow"><span>02</span> / EXPERIENCIA TÉCNICA</p><h2 id="experience-title">Construir software.<br>Entender su operación<span class="accent">.</span></h2></div>
+            <p class="section-description">Mi enfoque es el desarrollo. La experiencia operando sistemas en vivo me aporta otra perspectiva: fiabilidad, diagnóstico y resolución de problemas.</p>
+          </div>
+          <div class="experience-role reveal">
+            <div><span class="badge">Experiencia complementaria</span><h3>Producción audiovisual<br>y soporte técnico</h3><p class="experience-organization">Iglesia de Cristo Palabra Viva y Eficaz</p></div>
+            <div class="experience-context"><span class="experience-symbol" aria-hidden="true"><svg class="icon"><use href="assets/icons/sprite.svg#signal"></use></svg></span><p>Configurar, operar y mantener los sistemas de los que depende un evento en vivo. Identificar fallos y resolverlos bajo presión, mientras otras personas necesitan que todo siga funcionando.</p><span class="meta-label">TECHNICAL OPERATIONS / TROUBLESHOOTING</span></div>
+          </div>
+          <div class="operations-grid">
+            <article class="operation-card reveal"><div class="operation-topline"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#video"></use></svg><span>01 / AUDIOVISUAL</span></div><h3>Transmisión y sistemas AV</h3><p>Operación y configuración de transmisiones con OBS Studio y ATEM Mini Pro. Cámaras, sistemas de video, audio en vivo, consolas digitales, micrófonos y sonido.</p></article>
+            <article class="operation-card reveal"><div class="operation-topline"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#tools"></use></svg><span>02 / SOPORTE TI</span></div><h3>Diagnóstico y resolución</h3><p>Diagnóstico de hardware y software, mantenimiento de computadoras y resolución de incidentes durante eventos en vivo. Encontrar la causa del problema y recuperar la operación.</p></article>
+            <article class="operation-card reveal"><div class="operation-topline"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#network"></use></svg><span>03 / WEB Y CONECTIVIDAD</span></div><h3>Servicios e infraestructura</h3><p>Redes y conectividad básica, hosting, dominios, mantenimiento y despliegue web. Integración de servicios y APIs, y herramientas internas para apoyar la operación.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="tecnologias" aria-labelledby="technologies-title" data-nav-section>
+        <div class="section-heading reveal"><div><p class="eyebrow"><span>03</span> / TECNOLOGÍAS</p><h2 id="technologies-title">Un stack enfocado.<br>Una base que crece<span class="accent">.</span></h2></div><p class="section-description">C#, .NET y SQL son mi punto de partida. Elijo el resto de herramientas según lo que necesita cada proyecto.</p></div>
+        <p class="core-label reveal">MI BASE PRINCIPAL</p>
+        <div class="core-grid">
+          <article class="core-card reveal" data-spotlight><div class="core-topline"><span class="core-logo" aria-hidden="true"><img class="tech-icon" src="assets/icons/technologies/csharp.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span><span class="meta-label">01 / CORE</span></div><h3>C#</h3><p>Lógica de negocio y aplicaciones</p></article>
+          <article class="core-card reveal" data-spotlight><div class="core-topline"><span class="core-logo" aria-hidden="true"><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span><span class="meta-label">02 / CORE</span></div><h3>.NET</h3><p>Backend y ecosistema de desarrollo</p></article>
+          <article class="core-card reveal" data-spotlight><div class="core-topline"><span class="core-logo" aria-hidden="true"><img class="tech-icon" src="assets/icons/technologies/microsoftsqlserver.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span><span class="meta-label">03 / CORE</span></div><h3>SQL Server</h3><p>Modelado, relaciones y consultas</p></article>
+        </div>
+        <div class="technology-groups reveal">
+          <div class="technology-group"><h3>Desktop</h3><ul><li><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>WPF</span></li><li><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>WinForms</span></li></ul></div>
+          <div class="technology-group"><h3>Web</h3><ul><li><img class="tech-icon" src="assets/icons/technologies/html5.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>HTML5</span></li><li><img class="tech-icon" src="assets/icons/technologies/css3.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>CSS3</span></li><li><img class="tech-icon" src="assets/icons/technologies/javascript.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>JavaScript</span></li><li><img class="tech-icon" src="assets/icons/technologies/dotnet.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>ASP.NET</span></li><li><img class="tech-icon" src="assets/icons/technologies/blazor.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Blazor</span></li><li><img class="tech-icon" src="assets/icons/technologies/react.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>React</span></li><li><img class="tech-icon" src="assets/icons/technologies/typescript.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>TypeScript</span></li></ul></div>
+          <div class="technology-group"><h3>Datos</h3><ul><li><img class="tech-icon" src="assets/icons/technologies/microsoftsqlserver.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>SQL Server</span></li><li><img class="tech-icon" src="assets/icons/technologies/postgresql.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>PostgreSQL</span></li><li><img class="tech-icon" src="assets/icons/technologies/sqlite.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>SQLite</span></li></ul></div>
+          <div class="technology-group"><h3>Herramientas</h3><ul><li><img class="tech-icon" src="assets/icons/technologies/git.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Git</span></li><li><img class="tech-icon tech-icon-github" src="assets/icons/technologies/github.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>GitHub</span></li><li><img class="tech-icon" src="assets/icons/technologies/visualstudio.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Visual Studio</span></li><li><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#network"></use></svg><span>APIs REST</span></li><li><img class="tech-icon" src="assets/icons/technologies/linux.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Linux</span></li><li><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#desktop"></use></svg><span>VPS</span></li><li><img class="tech-icon" src="assets/icons/technologies/docker.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Docker</span></li><li><img class="tech-icon" src="assets/icons/technologies/docker.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Docker Compose</span></li><li><svg class="icon tech-icon" aria-hidden="true"><use href="assets/icons/sprite.svg#network"></use></svg><span>Hosting y dominios</span></li></ul></div>
+        </div>
+        <p class="additional-tech reveal"><span>También trabajo y aprendo con</span> <span class="additional-tech-item"><img class="tech-icon" src="assets/icons/technologies/cplusplus.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>C++</span></span><span class="additional-tech-item"><img class="tech-icon" src="assets/icons/technologies/python.svg" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"><span>Python</span></span></p>
+      </section>
+
+      <section class="section section-about" id="sobre-mi" aria-labelledby="about-title" data-nav-section>
+        <div class="container about-grid">
+          <div class="about-copy reveal"><p class="eyebrow"><span>04</span> / SOBRE MÍ</p><h2 id="about-title">Primero entender.<br>Después construir<span class="accent">.</span></h2><p>Soy estudiante de Ingeniería en Sistemas. Me gusta comprender cómo funcionan los sistemas, por qué una solución tiene sentido y qué se puede mejorar.</p><p>Me interesan especialmente el backend, la arquitectura, las bases de datos y la automatización. Disfruto convertir un problema real en una herramienta funcional, aprender por mi cuenta y poner ese aprendizaje en práctica.</p><div class="about-focus"><span class="status-dot" aria-hidden="true"></span> Aprender, construir, revisar. Y volver a mejorar.</div></div>
+          <aside class="education-panel reveal" aria-labelledby="education-title"><div class="education-heading"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#education"></use></svg><h3 id="education-title">Educación</h3></div><div class="education-entry"><span class="education-period">2024 — ACTUALIDAD</span><h4>Ingeniería en Sistemas</h4><p>Universidad Mariano Gálvez</p><span class="education-status"><span class="status-dot" aria-hidden="true"></span> En curso</span></div><div class="education-entry"><span class="education-period">2021 — 2023</span><h4>Bachillerato en Computación</h4><p>Colegio Tecnológico Mixto Bilingüe Belén</p></div></aside>
+        </div>
+      </section>
+
+      <section class="section container section-contact" id="contacto" aria-labelledby="contact-title" data-nav-section>
+        <div class="contact-panel reveal">
+          <div class="contact-copy"><p class="eyebrow"><span>05</span> / SIGUIENTE PASO</p><h2 id="contact-title">¿Construimos<br>algo útil<span class="accent">?</span></h2><p>Busco mi próxima oportunidad como desarrollador junior. Aporto una base en C#, .NET y SQL, junto con experiencia práctica en soporte y operación técnica.</p><a class="button button-primary" href="mailto:isaac06gt@icloud.com">Hablemos <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+          <div class="contact-details"><span class="meta-label">PUEDES ENCONTRARME AQUÍ</span><div class="email-row"><a class="contact-email" href="mailto:isaac06gt@icloud.com">isaac06gt@icloud.com</a><button class="copy-button" type="button" aria-label="Copiar correo electrónico" data-copy-email="isaac06gt@icloud.com" hidden><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#copy"></use></svg></button></div><p class="copy-status" role="status" aria-live="polite" data-copy-status></p><a class="contact-social" href="https://github.com/newton0608" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Isaac Aifan, abre una pestaña nueva"><span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#github"></use></svg> GitHub <span class="social-handle">/ newton0608</span></span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a><a class="contact-social" href="https://www.linkedin.com/in/isaac-pablo-joel-aifan-g%C3%B3mez-801a85345" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Isaac Aifan, abre una pestaña nueva"><span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#linkedin"></use></svg> LinkedIn <span class="social-handle">/ Isaac Aifan</span></span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container"><a class="brand-mark footer-mark" href="#inicio" aria-label="Volver al inicio">ia<span aria-hidden="true">.</span></a><p>Designed &amp; built by Isaac Aifan <span class="footer-year">© <span data-year>2026</span></span></p><a class="footer-top" href="#inicio">Volver arriba <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-up-right"></use></svg></a></footer>
+  </body>
 </html>
